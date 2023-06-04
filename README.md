@@ -1,10 +1,5 @@
 # Poverty in the United States of America
-## Team Members
-Abraham Cervantes	acerva25@asu.edu	1214810753
 
-Brandon Downs		bmdowns1@asu.edu	1214484089
-
-Xiang Luo		xluo55@asu.edu	1215493279
 
 ## Overview and Summary
 
@@ -20,7 +15,6 @@ breakdown in relation to the percentages. Alongside each focused state is a cumu
 
 The data was collected from the American Community Survey at this link, which is no longer available as of 12/2/2021 at 11:00 pm. I attempted to discuss this with Dr. Bryan during 
 office hours after the link had been removed on 12/2/2021 to a new link. However, to supplment this inconvience, I will provide a link to the team's spreadsheet data in raw form. 
-If you need to discuss this please contact bmdowns1@asu.edu.
 
 [Original Link No Longer Available from American Community Survey at data.census.gov](https://data.census.gov/cedsci/table?q=historical%20poverty%20by%20state%20by%20year&t=Income%20and%20Poverty&g=0400000US01,02,04,05,06,08,09,10,12,13,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,44,45,46,47,48,49,50,51,53,54,55,56&tid=ACSST1Y2019.S1703&hidePreview=true&moe=false)
 
@@ -117,22 +111,3 @@ Here I'm just showing a click on Florida displaying the category of Education Le
 Since the proposal submission, we have changed from the storytelling technique to the dashboard technique, and we have changed our dataset source as well. To be more specific, the TA and professor have recommended we change from the storytelling option to the dashboard option, as the datasets we found were not complete enough to make connections between the visualizations. Therefore, we found a new dataset that satisfies our requirements for implementing a dashboard-oriented project. We merged a few of our ideas from our storyboard visualization together i.e. the stacked bar chart choropleth.  
 
 Although we changed from storytelling technique to dashboard technique, we have still kept the goal of depicting the problem of poverty disproportion in the United States. The original proposal was realistic as it was collected by the authority of the US government Census Bureau. We used a subset collected from the American Community Survey. Furthermore, there were some challenges arose during the development process, we had the difficulty of coloring the map in a way that is both color-blind friendly and easy to identify for the boundaries of each state, but it was solved the problem by creating our own color scale, and eventually finished the project with all the features we wanted to implement. If we can do the project differently next time, we would do the project by using the storytelling technique, and creating more innovative features for the project. 
-
-
-## Team workload
-Brandon
-* Map Implementation, Stacked Barchart
-* Data Structure/Collection, Transformation
-* Spearheaded Linking Effort
-* Bug Test on Tooltip Algorithm
-
-Xiang
-* Line Chart
-* Initial 'Index.html' setup, innovative feature planning
-* Initial Mappings, Planning for Map, geo.json
-* Handled Linking to Link Chart
-
-Abraham
-* Pictogram, Dashboard Linking
-* Handled Linking to Pictogram
-* Bug Test on Tooltip Algorithm
