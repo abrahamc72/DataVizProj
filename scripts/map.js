@@ -92,7 +92,7 @@ function drawMap() {
         .style('opacity', 1)
         .attr("width", 1420)
         .attr("height", 775)
-        .style('fill', "#ebd5b3")
+        .style('fill', "#121212")
         .on("click", function(d)
         {
             focus(d,path);

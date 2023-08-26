@@ -22,7 +22,7 @@ function lineReGraph(index = 0, categorySelect = 0) {
         .style('opacity', 1)
         .attr("width", 1420)
         .attr("height", 775)
-        .style('fill', "#ebd5b3");
+        .style('fill', "#121212");
     //title element
     lineSvg.append("text")
             .attr("font-size","40px")
@@ -33,7 +33,7 @@ function lineReGraph(index = 0, categorySelect = 0) {
             .style("font-family","Arial")
             .style("text-anchor", "middle")
             .style("font-weight", "bold")
-            .style("stroke","black")
+            .style("stroke","white")
             .style("stroke-width", "1")
             .style("opacity", 1)
             .text('Population Percentage in Poverty in ' + stateData[index].name + categories[categorySelect] + ' (2010 - 2019)')
@@ -270,7 +270,7 @@ function lineReGraph(index = 0, categorySelect = 0) {
         .attr('x', -5)
         .attr('dy', 4)
         .style('font-size', '20px')
-        .style('fill', 'black');
+        .style('fill', 'white');
     let xAxis = g.append('g');
     xAxis.attr('transform', `translate(0,${lineInnerHeight})`)
         .call(d3.axisBottom(xScale).ticks(d3.timeYear.every(1)))
@@ -278,7 +278,7 @@ function lineReGraph(index = 0, categorySelect = 0) {
         .style('stroke', 'gray');
     xAxis.selectAll('.tick text')
     	.style('font-size', '18px')
-        .style('fill', 'black');
+        .style('fill', 'white');
     xAxis.selectAll('.tick line')
         .style('stroke', 'gray');
 
@@ -297,16 +297,24 @@ function lineReGraph(index = 0, categorySelect = 0) {
 	        .attr('d', singleLine);
     }
     g = lineSvg.append('g')
-        .attr('transform', `translate(${lineWidth / 2}, ${lineHeight - 20})`);
+        .attr('transform', `translate(${lineWidth / 2}, ${lineHeight - 20})`)
+		.style('color','white');
     g.append('text')
     	.style('font-size', '20px')
+		.style('color','white')
+		.style('stroke','white')
     	.text('Year');
     g = lineSvg.append('g')
-        .attr('transform', `translate(30, ${lineHeight / 2}) rotate(-90)`);
+        .attr('transform', `translate(30, ${lineHeight / 2}) rotate(-90)`)
+		.style('color','white');
     g.append('text')
     	.style('font-size', '20px')
+		.style('color','white')
+		.style('stroke','white')
     	.attr('text-anchor', 'middle')
     	.text('Percentage');
     g = lineSvg.append('g')
-        .attr('transform', `translate(${lineWidth / 2}, 20)`);
+        .attr('transform', `translate(${lineWidth / 2}, 20)`)
+		.style('stroke','white')
+		.style('color','white');
 }
