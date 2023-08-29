@@ -1,6 +1,6 @@
 # Poverty in the United States of America
 
-View it on GitHub Pages [Here](http://wwww.abrahamc72.github.io/datavizproj)
+View it on GitHub Pages [Here](https://abrahamc72.github.io/DataVizProj/)
 
 ## Overview and Summary
 
